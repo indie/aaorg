@@ -56,7 +56,8 @@ class MeetingsController < ApplicationController
         "SJ, North" => "San Jose, North", 
         "SJ, Downtown" => "San Jose, Downtown", 
         "SJ, Willow Glen" => "San Jose, Willow Glen", 
-        "SJ, East" => "San Jose, East", 
+        "SJ, East" => "San Jose, East",
+        "SJ, West" => "San Jose, West" 
         "San Martin" => "San Martin", 
         "Santa Clara" => "Santa Clara", 
         "Saratoga" => "Saratoga", 
