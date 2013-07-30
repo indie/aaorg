@@ -38,12 +38,12 @@ body {
 }
 
 .outer {
-	width: auto;
+  width: auto;
   height: auto;
   min-height: 90%;
-	font-size:117%;
-	font-weight: 400;
-	text-align: left;
+  font-size:117%;
+  font-weight: 400;
+  text-align: left;
   margin-left: 1%;
   min-width: 10%;
   max-width: 98%;
@@ -144,8 +144,14 @@ form {
 
 .search-instructions {
   font-family: Droid Sans, sans-serif;
-  font-size: 1.02em;
-  padding: 3px;
+  font-size: 0.95em;
+  ul {
+  padding: 2px;
+  li {
+  padding-top: 2px;
+  btn-mini { size: 75%; }
+  }
+  }
 }
 
 .searchbox {
