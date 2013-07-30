@@ -77,6 +77,7 @@ class MeetingsController < ApplicationController
     @q = Meeting.search(params[:q])
 
     @search = Meeting.search(params[:q]) 
+    # @search.sorts = 'day.asc'
     @meetings = @search.result(:distinct => true).order('day asc')
 
     respond_to do |format|
